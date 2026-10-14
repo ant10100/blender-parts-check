@@ -6,6 +6,10 @@ import sys
 import unittest
 
 import bpy
+
+if not bpy.app.background or "--factory-startup" not in sys.argv:
+    raise SystemExit("Use a new --background --factory-startup Blender process")
+
 from mathutils import Matrix
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
