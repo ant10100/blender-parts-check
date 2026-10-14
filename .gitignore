@@ -1,0 +1,7 @@
+__pycache__/
+*.py[cod]
+.test-output/
+dist/
+*.blend
+*.blend1
+*.log

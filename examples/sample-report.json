@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "tool_version": "0.1.0",
+  "privacy": "reduced",
+  "checked_pairs": 2,
+  "included_parts": 5,
+  "excluded_parts": 0,
+  "unpaired_parts": 0,
+  "unchecked_parts": 0,
+  "findings": [
+    {
+      "code": "CENTER_MISMATCH",
+      "severity": "WARNING",
+      "objects": ["part_001", "part_002"],
+      "normalized_difference": 0.05773503
+    },
+    {
+      "code": "MISSING_PARTNER",
+      "severity": "WARNING",
+      "objects": ["part_003"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+schema_version = "1.0.0"
+id = "blender_parts_check"
+version = "0.1.0"
+name = "Blender Parts Check"
+tagline = "Read-only checks of explicitly paired parts before integration"
+maintainer = "Blender Parts Check contributors"
+type = "add-on"
+tags = ["Object"]
+blender_version_min = "5.0.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[permissions]
+files = "Export a privacy-reduced JSON report on explicit request"
